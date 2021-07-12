@@ -54,12 +54,12 @@ def main():
     #
     send_to_address = account_b    
 
-    # Create and sign transaction
+    # create and sign transaction
     tx = transaction.PaymentTxn(account_a, tx_fee, first_valid_round, last_valid_round, gh, send_to_address, send_amount, flat_fee=True)
     signed_tx = tx.sign(account_a_private_key)
 
     try:
-        # Send the transaction
+        # send the transaction
         print("Sending " + str(send_amount) + " microalgo from " + account_a + " to " + account_b + "...", end='', flush=True)
         # note that the PureStake api requires the content type for the following call to be set to application/x-binary
         tx_confirm = algod_client.send_transaction(signed_tx)
@@ -69,7 +69,7 @@ def main():
         print("Sent " + str(send_amount) + " microalgo in transaction: " + str(tx_confirm))
         print("")
 
-        # Query resulting balances
+        # query resulting balances
         result_a = algod_client.account_info(account_a)
         result_b = algod_client.account_info(account_b)
 
