@@ -36,8 +36,8 @@ def main():
     account_a = mnemonic.to_public_key(mnemonic_secret)
     account_b = 'OLOCVXHXMOLOV4BN2FHXS23S46UWJIKFDVZJ2WL3KOSX3JFRMTJWYW2OIY'
     
-    # Setup client with PureStake key
-    # purestake_key = 'INSERT YOUR PURESTAKE API KEY HERE'
+    # setup client with PureStake key
+    purestake_key = 'INSERT YOUR PURESTAKE API KEY HERE'
     endpoint_address = 'https://testnet-algorand.api.purestake.io/ps2'
     purestake_header = {'X-Api-key': algod_token }
     algod_client  = algod.AlgodClient(algod_token, endpoint_address, headers=purestake_header)
