@@ -117,8 +117,8 @@ conda deactivate
 ```
 
 ## About
-Medium: @csalinasonline
-LinkedIn: https://www.linkedin.com/in/conrad-salinas-17a29327
-Site: https://www.DeepHomebrew.com
-Medium Link: https://link.medium.com/0fDwEPCkPhb
-Site: https://deephomebrew.com/2021/07/12/project-blockchain-algorand-tutorial-2-create-purestake-account-and-python-transaction/
+Medium: @csalinasonline |
+LinkedIn: https://www.linkedin.com/in/conrad-salinas-17a29327 |
+Site: https://www.DeepHomebrew.com |
+Medium Link: https://link.medium.com/0fDwEPCkPhb |
+Site: https://deephomebrew.com/2021/07/12/project-blockchain-algorand-tutorial-2-create-purestake-account-and-python-transaction/ |
