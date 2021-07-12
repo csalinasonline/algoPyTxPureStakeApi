@@ -24,7 +24,6 @@ from algosdk import transaction
 def main():
     """
     Main hook
-
     """
 
     # fund these 2 accounts with some initial algo via the dispenser:
